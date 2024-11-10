@@ -9,7 +9,7 @@ from wtforms.validators import DataRequired, InputRequired
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "LEgBZfqZr7FqStUsz8VzzC8Xdrl0D90I"
+app.config['SECRET_KEY'] = "your-secret-key"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///project-manager.db"
 db = SQLAlchemy(app)
 
